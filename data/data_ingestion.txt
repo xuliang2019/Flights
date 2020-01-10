@@ -1,0 +1,26 @@
+CREATE EXTERNAL DATA SOURCE cse344blob
+WITH (  TYPE = BLOB_STORAGE,
+        LOCATION = 'https://cse344.blob.core.windows.net/flights'
+);
+
+bulk insert Carriers from 'carriers.csv'
+with (ROWTERMINATOR = '0x0a',
+DATA_SOURCE = 'cse344blob', FORMAT='CSV', CODEPAGE = 65001, --UTF-8 encoding
+FIRSTROW=1,TABLOCK);
+
+bulk insert Months from 'months.csv'
+with (ROWTERMINATOR = '0x0a',
+DATA_SOURCE = 'cse344blob', FORMAT='CSV', CODEPAGE = 65001, --UTF-8 encoding
+FIRSTROW=1,TABLOCK);
+
+bulk insert Weekdays from 'weekdays.csv'
+with (ROWTERMINATOR = '0x0a',
+DATA_SOURCE = 'cse344blob', FORMAT='CSV', CODEPAGE = 65001, --UTF-8 encoding
+FIRSTROW=1,TABLOCK);
+
+-- Import for the large Flights table
+-- This last import may take ~5 minutes on the provided server settings
+bulk insert Flights from 'flights-small.csv'
+with (ROWTERMINATOR = '0x0a',
+DATA_SOURCE = 'cse344blob', FORMAT='CSV', CODEPAGE = 65001, --UTF-8 encoding
+FIRSTROW=1,TABLOCK);
