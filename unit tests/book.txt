@@ -1,0 +1,17 @@
+# user 1
+create user1 user1 100
+login user1 user1
+search "Seattle WA" "Los Angeles CA" 1 1 1
+book 0
+quit
+*
+#
+# expected printouts for user 1
+#
+Created user user1
+Logged in as user1
+Itinerary 0: 1 flight(s), 139 minutes
+ID: 66513 Day: 1 Carrier: AS Number: 292 Origin: Seattle WA Dest: Los Angeles CA Duration: 139 Capacity: 10 Price: 993
+Booked flight(s), reservation ID: 1
+Goodbye
+*

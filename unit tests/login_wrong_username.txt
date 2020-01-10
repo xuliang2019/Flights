@@ -1,0 +1,13 @@
+# user 1 inputs
+#
+create user1 123456 10
+login liang 123456
+quit
+*
+#
+# expected printouts for user 1
+#
+Created user user1
+Login failed
+Goodbye
+*

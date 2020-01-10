@@ -1,0 +1,12 @@
+# create a single user twice
+# 
+create liang 123456 100
+create liang 123456 100
+quit
+*
+#
+# expected output
+Created user liang
+Failed to create user
+Goodbye
+*

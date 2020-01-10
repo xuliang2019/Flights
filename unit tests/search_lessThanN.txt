@@ -1,0 +1,17 @@
+# user 1
+create user1 user1 100000
+login user1 user1
+search "Seattle WA" "Austin TX" 1 1 10
+quit
+*
+#
+# expected printouts for user 1
+#
+Created user user1
+Logged in as user1
+Itinerary 0: 1 flight(s), 231 minutes
+ID: 706585 Day: 1 Carrier: AS Number: 606 Origin: Seattle WA Dest: Austin TX Duration: 231 Capacity: 5 Price: 816
+Itinerary 1: 1 flight(s), 235 minutes
+ID: 706629 Day: 1 Carrier: AS Number: 670 Origin: Seattle WA Dest: Austin TX Duration: 235 Capacity: 19 Price: 478
+Goodbye
+*
