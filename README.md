@@ -56,5 +56,4 @@ java -jar flights/flightapp-1.0-jar-with-dependencies.jar
 ```
 And you will see above interface. Congratulations!
 ## Instruction Demo
-<div align=center> <img src="https://github.com/xuliang2019/Flights/blob/master/figures/CMI_GIF.mp4" width="400"> </div>
-
+You can download the instruction video [``here``](https://github.com/xuliang2019/Flights/blob/master/figures/CMI_GIF.mp4)
