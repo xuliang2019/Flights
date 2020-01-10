@@ -5,7 +5,7 @@
 ## Overview
 This projects aims to realize a flight booking application. It enables us to create user account, search and book desired flights, as well as check reservation information. As always, you have the right to cancel booked flights. This application is achived by Java and SQL languages.
 
-<div align=center> <img src="https://https://github.com/xuliang2019/Flights/raw/master/figures/logo.jfif" width="400"> </div>
+<div align=center> <img src="https://www.travelchinacheaper.com/wp-content/uploads/Find-Cheap-China-Flights.jpg width="400"> </div>
 
 ## Function explanations
 #### 1. Create
