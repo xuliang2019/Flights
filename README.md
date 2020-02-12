@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/xuliang2019/Flights.svg?branch=master)](https://travis-ci.org/xuliang2019/Flights)
 [![Coverage Status](https://coveralls.io/repos/github/xuliang2019/Flights/badge.svg?branch=master)](https://coveralls.io/github/xuliang2019/Flights?branch=master)
 ## Overview
-This projects aims to realize a flight booking application. It enables us to create user account, search and book desired flights, as well as check reservation information. As always, you have the right to cancel booked flights. This application is achived by Java and SQL languages.
+This projects aims to realize a flight booking application. It enables us to create user account, search and book desired flights, as well as check reservation information. As always, you have the right to cancel booked flights. This application is achieved by Java and SQL languages.
 
 <div align=center> <img src="https://github.com/xuliang2019/Flights/raw/master/figures/logo.png" width = "400"> </div>
 
